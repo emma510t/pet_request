@@ -28,7 +28,7 @@ export async function delPet(id) {
   /* let data = await response.json();
   console.log(data); */
 }
-export async function postPet() {
+export async function addPet() {
   let headersList = {
     apikey: myAPI,
     "Content-Type": "application/json",
@@ -50,7 +50,7 @@ export async function postPet() {
   console.log(data);
 }
 
-export async function patchPet() {
+export async function updatePet() {
   let headersList = {
     apikey: myAPI,
     "Content-Type": "application/json",
